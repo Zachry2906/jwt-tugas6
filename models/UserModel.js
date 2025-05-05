@@ -3,7 +3,7 @@ import db from "../config/Database.js";
 
 // Membuat tabel "user"
 const User = db.define(
-  "user", // Nama Tabel
+  "userss", // Nama Tabel
   {
     password: Sequelize.STRING,
     refresh_token : Sequelize.TEXT,
